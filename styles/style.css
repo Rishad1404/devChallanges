@@ -52,6 +52,7 @@ padding: 100px;
     }
     .one{
         width: 350px;
+        padding: 0;
     }
     .two{
         display: grid;
