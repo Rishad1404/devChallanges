@@ -23,7 +23,8 @@
 
 }
 .two{
-
+    display: grid;
+    
 }
 .three{
     background-color: rgb(248, 248, 248);
@@ -32,7 +33,9 @@
     padding: 20px;
     border-radius: 10px;
     border: 1px solid white;
-    border:none
+    border:none;
+    margin-left: 450px;
+    margin-bottom: 50px;
 }
 .four{
     background-color: rgb(248, 248, 248);
@@ -48,4 +51,18 @@
         grid-template-columns: 1fr;
         
     }
+    .one{
+        width: 350px;
+    }
+    .two{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    .three{
+        margin-left: 0;
+    }
+    .four{
+        margin: 0;
+    }
+    
 }
